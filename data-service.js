@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var http_1 = require('@angular/http');
-require('rxjs/Rx');
+require('rxjs/add/operator/map');
 var DataService = (function () {
     function DataService(http) {
         var _this = this;
